@@ -1,0 +1,39 @@
+.profileImageContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;    
+  --profileBg: #fff;
+  --profileBorderWidth: 10px;
+  --profileImgTotalWidth: 260px;
+
+}
+
+.profileImage {
+  width: calc(var(--profileImgTotalWidth) - (3 * var(--profileBorderWidth)));
+  height: calc(var(--profileImgTotalWidth) - (3 * var(--profileBorderWidth)));;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-position: 50% 6%;
+  background-size: 135% auto;
+  background-image: url("../public/akash.png");
+}
+
+.motionDiv {
+    position: absolute;
+}
+
+.profileBorder {
+    border: var(--profileBorderWidth) solid  var(--profileBg);
+    width: var(--profileImgTotalWidth);
+    height: var(--profileImgTotalWidth);
+    position: absolute;
+    z-index: 9;
+    border-radius: 100%;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%)
+}
+
