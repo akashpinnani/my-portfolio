@@ -1,39 +1,32 @@
 .profileImageContainer {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-right: 5rem;
   height: 300px;    
   --profileBg: #fff;
-  --profileBorderWidth: 10px;
-  --profileImgTotalWidth: 260px;
+  --profileBorderWidth: 18px;
+  --profileImgTotalWidth: 360px;
 
 }
 
 .profileImage {
   width: calc(var(--profileImgTotalWidth) - (3 * var(--profileBorderWidth)));
   height: calc(var(--profileImgTotalWidth) - (3 * var(--profileBorderWidth)));;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  background-position: 50% 6%;
-  background-size: 135% auto;
-  background-image: url("../public/akash.png");
+  /* background-position: 50% 6%;
+  background-size: 135% auto; */
+  background-position: 62% 34%;
+  background-size: 223% auto;
+  background-image: url("../public/akash2.png");
+  border-radius: 100%;
+  box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
+    border: var(--profileBorderWidth) solid  var(--profileBg);
+
 }
 
 .motionDiv {
     position: absolute;
 }
 
-.profileBorder {
-    border: var(--profileBorderWidth) solid  var(--profileBg);
-    width: var(--profileImgTotalWidth);
-    height: var(--profileImgTotalWidth);
-    position: absolute;
-    z-index: 9;
-    border-radius: 100%;
-    box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%)
-}
 

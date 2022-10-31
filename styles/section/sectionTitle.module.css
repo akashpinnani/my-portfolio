@@ -1,0 +1,21 @@
+.sectionTitle {
+  font-size: 1.5rem;
+  color: var(--black2);
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gray3);
+  position: relative;
+  display: inline-block;
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
+
+.sectionTitle:after {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--blue);
+  border-radius: 4px;
+}

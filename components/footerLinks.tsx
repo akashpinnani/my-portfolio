@@ -1,15 +1,32 @@
 import React from "react";
-import { faGithub, faInstagram, faCodepen, faDev, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {
+  FaGithub,
+  FaCodepen,
+  FaDev,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 import { Button } from "./button";
-import styles from '../styles/footerContainer.module.css';
-
+import styles from "../styles/footerContainer.module.css";
 
 export const FooterLinks = () => {
-    return <div className={styles.footerContainer}>
-    <Button icon={faGithub}  url={'https://github.com/akashpinnani'}/>
-    <Button icon={faLinkedin}  url={'https://www.linkedin.com/in/akash-pinnani-81770463/'}/>
-    <Button icon={faDev}  url={'https://dev.to/akashvarma9'}/>
-    <Button icon={faCodepen}  url={'https://codepen.io/akashv459'}/>
-    <Button icon={faTwitter}  url={'https://twitter.com/AkashVarma9'}/>
+  return (
+    <div className={styles.footerContainer}>
+      <Button url={"https://github.com/akashpinnani"}>
+        <FaGithub />
+      </Button>
+      <Button url={"https://www.linkedin.com/in/akash-pinnani-81770463/"}>
+        <FaLinkedin />
+      </Button>
+      <Button url={"https://dev.to/akashvarma9"}>
+        <FaDev />
+      </Button>
+      <Button url={"https://codepen.io/akashv459"}>
+        <FaCodepen />
+      </Button>
+      <Button url={"https://twitter.com/AkashVarma9"}>
+        <FaTwitter />
+      </Button>
     </div>
-}
+  );
+};

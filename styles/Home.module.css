@@ -1,5 +1,26 @@
 .container {
   padding: 0 2rem;
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+  min-height: 600px;
+}
+
+
+.introductionWrapper {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 100px;
+}
+
+.introductionWrapper > * {
+  flex: 1;
+
+}
+
+.profileImageWrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .main {

@@ -1,0 +1,45 @@
+.skillIconWrapper {
+  position: relative;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillIconWrapper:after {
+  content: "";
+  width: 1px;
+  height: 85%;
+  /* background-color: var(--black3); */
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.iconWrapper {
+  font-size: 3rem;
+  position: relative;
+}
+
+.iconName {
+  font-size: 0.875rem;
+}
+
+.skillsIconContainer {
+  display: flex;
+  column-gap: 8px;
+}
+
+.icon {
+  width: 60px;
+  object-fit: contain;
+  height: auto;
+}
+
+
+.skillSeparator {
+    margin: 1rem 0;
+    height: 1px;
+}

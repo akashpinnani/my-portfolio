@@ -1,21 +1,17 @@
 import React from "react";
 import styles from "../styles/button.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  IconDefinition,
-} from "@fortawesome/fontawesome-svg-core";
 import Link from "next/link";
 
 type ButtonProps = {
-  icon: IconDefinition;
   url: string;
+  children: any;
 };
 
 export const Button = (props: ButtonProps) => {
-  const { url, icon } = props;
+  const { url } = props;
   return (
     <Link href={url} target="_blank" className={styles.button}>
-        <FontAwesomeIcon icon={icon} />
+        {props.children}
     </Link>
   );
 };

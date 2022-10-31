@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/hiWithName.module.css";
+import styles from "../../styles/introduction/hiWithName.module.css";
 
 export const HiWithName = () => {
     return (

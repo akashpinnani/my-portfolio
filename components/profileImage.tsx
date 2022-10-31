@@ -10,12 +10,14 @@ export const ProfileImage = () => {
   return (
     <div className={styles.profileImageContainer}>
       <div className={styles.profileBorder}></div>
-      <motion.div
+      {/* <motion.div
         className={styles.motionDiv}
-        animate={{ x: x * transformMultiplier, y: y * transformMultiplier }}
+        // animate={{ x: x * transformMultiplier, y: y * transformMultiplier }}
       >
-          <div className={styles.profileImage}></div>
-      </motion.div>
+      </motion.div> */}
+
+<div className={styles.profileImage}></div>
+
     </div>
   );
 };
