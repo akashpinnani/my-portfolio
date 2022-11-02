@@ -7,11 +7,11 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { Button } from "./button";
-import styles from "../styles/footerContainer.module.css";
+import styles from "../styles/homeLinks.module.css";
 
-export const FooterLinks = () => {
+export const HomeLinks = () => {
   return (
-    <div className={styles.footerContainer}>
+    <div className={styles.homeLinksContainer}>
       <Button url={"https://github.com/akashpinnani"}>
         <FaGithub />
       </Button>

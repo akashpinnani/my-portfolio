@@ -4,7 +4,7 @@ import Image from "next/image";
 
 type SkillIconProps = {
   name: string;
-  imgSrc: any;
+  imgSrc?: any;
   showIcon?: boolean;
 };
 

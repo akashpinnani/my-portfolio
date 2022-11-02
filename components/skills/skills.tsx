@@ -4,12 +4,9 @@ import styles from "../../styles/section/sectionContainer.module.css";
 import { SectionSubTitle } from "../section/sectionSubTitle";
 import { SkillIcon } from "./skillIcon";
 
-
 import skillIconStyles from "../../styles/skill/skillIcon.module.css";
 
 import { SiJavascript } from "react-icons/si";
-
-
 
 import angular from "../../public/assets/icons/skills/angular.svg";
 import aws from "../../public/assets/icons/skills/aws.svg";
@@ -39,7 +36,6 @@ import tailwind from "../../public/assets/icons/skills/tailwind.svg";
 import typescript from "../../public/assets/icons/skills/typescript.svg";
 import Image from "next/image";
 
-
 export const Skills = () => {
   return (
     <div className={styles.sectionContainer}>
@@ -48,45 +44,77 @@ export const Skills = () => {
       <SectionSubTitle name="Frontend" />
       <div className={skillIconStyles.skillsIconContainer}>
         <SkillIcon name="React" imgSrc={react} />
-        <SkillIcon name="Redux" imgSrc={redux}/>
-        <SkillIcon name="Next JS" imgSrc={next}/>
-        <SkillIcon name="Angular" imgSrc={angular}/>
-        <SkillIcon name="Html" imgSrc={html}/>
-        <SkillIcon name="Sass" imgSrc={sass}/>
-        <SkillIcon name="Tailwind" imgSrc={tailwind}/>
-        <SkillIcon name="Typescript" imgSrc={typescript}/>
-        <SkillIcon name="Chartjs" imgSrc={chartjs}/>
-        <SkillIcon name="Bootstrap" imgSrc={bootstrap}/>
+        <SkillIcon name="Redux" imgSrc={redux} />
+        <SkillIcon name="Next JS" imgSrc={next} />
+        <SkillIcon name="Angular" imgSrc={angular} />
+        <SkillIcon name="Html" imgSrc={html} />
+        <SkillIcon name="Sass" imgSrc={sass} />
+        <SkillIcon name="Tailwind" imgSrc={tailwind} />
+        <SkillIcon name="Typescript" imgSrc={typescript} />
+        <SkillIcon name="Chartjs" imgSrc={chartjs} />
+        <SkillIcon name="Bootstrap" imgSrc={bootstrap} />
       </div>
-<div className={skillIconStyles.skillSeparator}></div>
+      <div className={skillIconStyles.skillSeparator}></div>
 
-            {/* Backend skills */}
-            <SectionSubTitle name="Backend" />
+      {/* Backend skills */}
+      <SectionSubTitle name="Backend" />
       <div className={skillIconStyles.skillsIconContainer}>
-      <SkillIcon name="Nodejs" imgSrc={nodejs} />
-      <SkillIcon name="Graphql" imgSrc={graphql} />
-        <SkillIcon name="Spring boot" imgSrc={springboot}/>
-        <SkillIcon name="Express" imgSrc={express}/>
-        <SkillIcon name="Redis" imgSrc={redis}/>
-        <SkillIcon name="Mongodb" imgSrc={mongodb}/>
-        <SkillIcon name="Mysql" imgSrc={mysql}/>
-        <SkillIcon name="Nest" imgSrc={nest}/>
+        <SkillIcon name="Nodejs" imgSrc={nodejs} />
+        <SkillIcon name="Graphql" imgSrc={graphql} />
+        <SkillIcon name="Spring boot" imgSrc={springboot} />
+        <SkillIcon name="Express" imgSrc={express} />
+        <SkillIcon name="Redis" imgSrc={redis} />
+        <SkillIcon name="Mongodb" imgSrc={mongodb} />
+        <SkillIcon name="Mysql" imgSrc={mysql} />
+        <SkillIcon name="Nest" imgSrc={nest} />
       </div>
 
       <div className={skillIconStyles.skillSeparator}></div>
 
-         {/* Tool skills */}
-         <SectionSubTitle name="Tools" />
+      {/* Tool skills */}
+      <SectionSubTitle name="Tools" />
       <div className={skillIconStyles.skillsIconContainer}>
-      <SkillIcon name="Puppeteer" imgSrc={puppeteer} />
-        <SkillIcon name="Jenkins" imgSrc={jenkins}/>
-        <SkillIcon name="Figma" imgSrc={figma}/>
-        <SkillIcon name="Circleci" imgSrc={circleci}/>
-        <SkillIcon name="Firebase" imgSrc={firebase}/>
-        <SkillIcon name="Aws" imgSrc={aws}/>
-        <SkillIcon name="Docker" imgSrc={docker}/>
-        <SkillIcon name="Jest" imgSrc={jest}/>
+        <SkillIcon name="Puppeteer" imgSrc={puppeteer} />
+        <SkillIcon name="Jenkins" imgSrc={jenkins} />
+        <SkillIcon name="Figma" imgSrc={figma} />
+        <SkillIcon name="Circleci" imgSrc={circleci} />
+        <SkillIcon name="Firebase" imgSrc={firebase} />
+        <SkillIcon name="Aws" imgSrc={aws} />
+        <SkillIcon name="Docker" imgSrc={docker} />
+        <SkillIcon name="Jest" imgSrc={jest} />
       </div>
+
+      <div className={skillIconStyles.skillSeparator}></div>
+
+      {/* Design skills */}
+      <SectionSubTitle name="Design" />
+      <div className={skillIconStyles.skillsIconContainer}>
+        <SkillIcon name="Figma" />
+        <SkillIcon name="Sketch" />
+      </div>
+
+      <div className={skillIconStyles.skillSeparator}></div>
+
+      {/* Database skills */}
+      <SectionSubTitle name="Database" />
+      <div className={skillIconStyles.skillsIconContainer}>
+        <SkillIcon name="My SQL" />
+        <SkillIcon name="SQL" />
+        <SkillIcon name="Mongo DB" />
+        <SkillIcon name="Redis" />
+      </div>
+      <div className={skillIconStyles.skillSeparator}></div>
+
+            {/* Database skills */}
+            <SectionSubTitle name="Others" />
+      <div className={skillIconStyles.skillsIconContainer}>
+        <SkillIcon name="Circle CI" />
+        <SkillIcon name="Cypress JS" />
+        <SkillIcon name="Webpack" />
+        <SkillIcon name="Grunt" />
+      </div>
+
+
     </div>
   );
 };

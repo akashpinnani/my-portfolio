@@ -1,7 +1,9 @@
-.footerContainer {
+.homeLinksContainer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
+    flex-direction: column;
     margin-top: 2rem;   
+    position: absolute;
 }

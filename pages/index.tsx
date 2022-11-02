@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Contact } from "../components/contact/contact";
 import { CopyrightFooter } from "../components/copyrightFooter";
-import { FooterLinks } from "../components/footerLinks";
+import { HomeLinks } from "../components/homeLinks";
 import { Introduction } from "../components/introduction/introduction";
 import { NavLinksContainer } from "../components/navbar/navLinksContainer";
 import { ProfileImage } from "../components/profileImage";
@@ -20,12 +20,14 @@ export default function Home() {
         </Head>
 
         <NavLinksContainer />
-        <div className={styles.introductionWrapper}>
+        <div className={styles.introContainer}>
+          <HomeLinks />
+          <div className={styles.introductionContainer}>
+            <Introduction />
+          </div>
           <div className={styles.profileImageWrapper}>
             <ProfileImage />
-            {/* <FooterLinks /> */}
           </div>
-          <Introduction />
         </div>
       </div>
       <div className={styles.container} id="skills">
@@ -35,7 +37,7 @@ export default function Home() {
       <div className={styles.container} id="contact">
         <Contact />
       </div>
-      <CopyrightFooter/>
+      <CopyrightFooter />
     </>
   );
 }

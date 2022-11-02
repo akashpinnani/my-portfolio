@@ -7,14 +7,14 @@
 }
 
 
-.introductionWrapper {
+.introContainer {
   display: flex;
   align-items: flex-start;
   padding-top: 100px;
 }
 
-.introductionWrapper > * {
-  flex: 1;
+.introContainer > * {
+  /* flex: 1; */
 
 }
 

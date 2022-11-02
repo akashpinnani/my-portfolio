@@ -1,6 +1,6 @@
 .skillIconWrapper {
   position: relative;
-  padding: 0 12px;
+  padding: 0 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,8 +10,8 @@
 .skillIconWrapper:after {
   content: "";
   width: 1px;
-  height: 85%;
-  /* background-color: var(--black3); */
+  height: 75%;
+  background-color: var(--black);
   position: absolute;
   right: 0;
   top: 50%;
@@ -25,11 +25,16 @@
 
 .iconName {
   font-size: 0.875rem;
+  line-height: 1;
 }
 
 .skillsIconContainer {
   display: flex;
-  column-gap: 8px;
+  margin-left: -8px;
+}
+
+.skillsIconContainer > :last-child:after {
+    content: unset; 
 }
 
 .icon {
