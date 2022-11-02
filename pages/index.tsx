@@ -34,9 +34,9 @@ export default function Home() {
         <Skills />
       </div>
 
-      <div className={styles.container} id="contact">
+      {/* <div className={styles.container} id="contact">
         <Contact />
-      </div>
+      </div> */}
       <CopyrightFooter />
     </>
   );

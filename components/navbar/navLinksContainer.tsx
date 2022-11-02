@@ -13,7 +13,7 @@ export const NavLinksContainer = () => {
             <div className={styles.linksWrapper}>
                 <Link className={linkStyles.link} href={'#skills'}>Skills</Link>
                 <Link className={linkStyles.link} href={'https://dev.to/akashvarma9'}>Blog</Link>
-                <Link className={linkStyles.link} href={'#contact'}>Contact</Link>
+                {/* <Link className={linkStyles.link} href={'#contact'}>Contact</Link> */}
             {/* <NavLink name="Skills" url="#skills"/> */}
             {/* <NavLink name="Blog" url="https://dev.to/akashvarma9"/> */}
             {/* <NavLink name="Contact" url="#contact"/> */}
