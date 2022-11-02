@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Contact } from "../components/contact/contact";
 import { CopyrightFooter } from "../components/copyrightFooter";
 import { HomeLinks } from "../components/homeLinks";
 import { Introduction } from "../components/introduction/introduction";
