@@ -21,7 +21,10 @@ body {
   scroll-behavior: smooth;
   overflow-y: scroll;
   @include mobile {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  @include ipad-and-below { 
+    font-size: 15px;
   }
 }
 

@@ -1,3 +1,6 @@
+@import "../mixins.modules.scss";
+
+
 .skillIconWrapper {
   position: relative;
   padding: 0 8px;
@@ -26,11 +29,16 @@
 .iconName {
   font-size: 0.875rem;
   line-height: 1;
+  white-space: nowrap;
 }
 
 .skillsIconContainer {
   display: flex;
   margin-left: -8px;
+  @include mobile {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
 }
 
 .skillsIconContainer > :last-child:after {
