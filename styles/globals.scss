@@ -1,3 +1,4 @@
+@import "./mixins.modules.scss";
 
 :root {
   --blue: #007ced;
@@ -10,16 +11,18 @@
   --gray3: #f5f5f5;
 }
 
-
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-size: 16px;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  @include mobile {
+    font-size: 14px;
+  }
 }
 
 a {

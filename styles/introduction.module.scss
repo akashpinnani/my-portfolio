@@ -1,5 +1,12 @@
+@import "./mixins.modules.scss";
+
 .container {
   width: 450px;
   margin-left: 8rem;
   margin-right: 4rem;
+  @include mobile {
+    width: auto;
+    margin: 0;
+    margin-top: 3rem;
+  }
 }

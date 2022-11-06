@@ -1,9 +1,16 @@
+@import "./mixins.modules.scss";
+
 .homeLinksContainer {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 8px;
-    flex-direction: column;
-    margin-top: 2rem;   
-    position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+  margin-top: 2rem;
+  position: absolute;
+  @include mobile {
+    position: unset;
+    flex-direction: row;
+    margin-top: 6px;
+  }
 }

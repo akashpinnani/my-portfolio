@@ -1,3 +1,6 @@
+@import "../mixins.modules.scss";
+
+
 .profileImageContainer {
   position: relative;
   display: flex;
@@ -8,6 +11,9 @@
   --profileBg: #fff;
   --profileBorderWidth: 18px;
   --profileImgTotalWidth: 360px;
+  @include mobile {
+   padding-right: 0;
+  }
 
 }
 
@@ -22,7 +28,9 @@
   border-radius: 100%;
   box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
     border: var(--profileBorderWidth) solid  var(--profileBg);
-
+    @include mobile {
+      flex-direction: column-reverse;
+    }
 }
 
 .motionDiv {

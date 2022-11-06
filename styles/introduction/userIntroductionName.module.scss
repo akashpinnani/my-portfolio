@@ -1,7 +1,14 @@
+@import "./mixins.modules.scss";
+
+
+
 .name {
     color: var(--black2);
     font-size: 3.0625rem;
     font-weight: 500;
     margin-bottom: 1.25rem;
     line-height: 1;
+  @include mobile {
+    font-size: 2.8rem;
+  }
 }
