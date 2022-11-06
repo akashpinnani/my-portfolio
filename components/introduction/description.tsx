@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/introduction/description.module.css";
+import styles from "../../styles/introduction/description.module.scss";
 
 export const Description = () => {
   return (

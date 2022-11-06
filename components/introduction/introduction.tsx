@@ -1,7 +1,7 @@
 import React from "react";
 import { UserIntroductionName } from "./userIntroductionName";
 import { RoleAnimation } from "./roleAnimation";
-import styles from "../../styles/introduction.module.css";
+import styles from "../../styles/introduction.module.scss";
 import { Description } from "./description";
 
 

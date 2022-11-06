@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import styles from "../../styles/navbar/navbar.module.css";
-import linkStyles from "../../styles/navbar/link.module.css";
+import styles from "../../styles/navbar/navbar.module.scss";
+import linkStyles from "../../styles/navbar/link.module.scss";
 
 import { Title } from "./title";
 

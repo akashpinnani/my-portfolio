@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/introduction/roleAnimation.module.css";
+import styles from "../../styles/introduction/roleAnimation.module.scss";
 import Typewriter from "typewriter-effect";
 
 export const RoleAnimation = () => {

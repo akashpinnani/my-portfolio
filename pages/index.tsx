@@ -5,7 +5,7 @@ import { Introduction } from "../components/introduction/introduction";
 import { NavLinksContainer } from "../components/navbar/navLinksContainer";
 import { ProfileImage } from "../components/profileImage";
 import { Skills } from "../components/skills/skills";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   return (

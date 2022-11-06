@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/skill/skillIcon.module.css";
+import styles from "../../styles/skill/skillIcon.module.scss";
 import Image from "next/image";
 
 type SkillIconProps = {

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import styles from "../styles/profileImage.module.css";
+import styles from "../styles/profileImage/profileImage.module.scss";
 import { motion } from "framer-motion";
 import useMousePosition from "../custom-hooks/usePosition";
 

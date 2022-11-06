@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/section/sectionSubTitle.module.css";
+import styles from "../../styles/section/sectionSubTitle.module.scss";
 
 type SectionSubTitleProps = {
   name: string;

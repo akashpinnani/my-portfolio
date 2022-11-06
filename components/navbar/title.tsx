@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/navbar/title.module.css";
+import styles from "../../styles/navbar/title.module.scss";
 
 export const Title = () => {
     return (

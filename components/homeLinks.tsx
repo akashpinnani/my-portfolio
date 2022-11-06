@@ -7,7 +7,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { Button } from "./button";
-import styles from "../styles/homeLinks.module.css";
+import styles from "../styles/homeLinks.module.scss";
 
 export const HomeLinks = () => {
   return (

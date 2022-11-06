@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/copyrightFooter.module.css"
+import styles from "../styles/copyrightFooter.module.scss"
 
 
 export const CopyrightFooter = () => {

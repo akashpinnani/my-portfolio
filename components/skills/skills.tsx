@@ -1,10 +1,10 @@
 import React from "react";
 import { SectionTitle } from "../section/sectionTitle";
-import styles from "../../styles/section/sectionContainer.module.css";
+import styles from "../../styles/section/sectionContainer.module.scss";
 import { SectionSubTitle } from "../section/sectionSubTitle";
 import { SkillIcon } from "./skillIcon";
 
-import skillIconStyles from "../../styles/skill/skillIcon.module.css";
+import skillIconStyles from "../../styles/skill/skillIcon.module.scss";
 
 import { SiJavascript } from "react-icons/si";
 
