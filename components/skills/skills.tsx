@@ -108,6 +108,8 @@ export const Skills = () => {
             {/* Database skills */}
             <SectionSubTitle name="Others" />
       <div className={skillIconStyles.skillsIconContainer}>
+      <SkillIcon name="Hadoop" />
+      <SkillIcon name="Spark" />
         <SkillIcon name="Circle CI" />
         <SkillIcon name="Cypress JS" />
         <SkillIcon name="Webpack" />
