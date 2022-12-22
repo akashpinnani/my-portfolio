@@ -1,40 +1,36 @@
 @import "../mixins.modules.scss";
 
-
 .profileImageContainer {
   position: relative;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
   padding-right: 5rem;
-  height: 300px;    
+  height: 300px;
   --profileBg: #fff;
   --profileBorderWidth: 18px;
   --profileImgTotalWidth: 360px;
   @include mobile {
-   padding-right: 0;
+    padding-right: 0;
   }
-
 }
 
 .profileImage {
   width: calc(var(--profileImgTotalWidth) - (3 * var(--profileBorderWidth)));
-  height: calc(var(--profileImgTotalWidth) - (3 * var(--profileBorderWidth)));;
-  /* background-position: 50% 6%;
-  background-size: 135% auto; */
-  background-position: 62% 34%;
-  background-size: 223% auto;
-  background-image: url("../../public/akash2.png");
+  height: calc(var(--profileImgTotalWidth) - (3 * var(--profileBorderWidth)));
+  background-image: url("../../public/akash.jpeg");
   border-radius: 100%;
   box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
-    border: var(--profileBorderWidth) solid  var(--profileBg);
-    @include mobile {
-      flex-direction: column-reverse;
-    }
+  border: var(--profileBorderWidth) solid var(--profileBg);
+  @include mobile {
+    flex-direction: column-reverse;
+  }
+  background-repeat: no-repeat;
+  background-color: #d6d7d1;
+  background-position: 50% 102%;
+  background-size: 90%;
 }
 
 .motionDiv {
-    position: absolute;
+  position: absolute;
 }
-
-
