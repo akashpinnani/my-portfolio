@@ -4,8 +4,8 @@ import styles from "../../styles/introduction/description.module.scss";
 export const Description = () => {
   return (
     <div className={styles.description}>
-      5 years of experience as a fullstack software developer and highly familiar with React JS,
-      Angular, Typescript, Node JS, AWS tools, and Mongo DB.
+      Fullstack software developer and highly familiar with React JS,
+      Angular, Typescript, Node JS, AWS tools, and Mongo DB. Expert knowledge of developing scalable javascript web applications following agile methodologies.
     </div>
   );
 };

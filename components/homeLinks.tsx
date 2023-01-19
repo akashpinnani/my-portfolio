@@ -15,9 +15,9 @@ export const HomeLinks = () => {
       <Button url={"https://github.com/akashpinnani"}>
         <FaGithub />
       </Button>
-      <Button url={"https://www.linkedin.com/in/akash-pinnani-81770463/"}>
+      {/* <Button url={"https://www.linkedin.com/in/akash-pinnani-81770463/"}>
         <FaLinkedin />
-      </Button>
+      </Button> */}
       <Button url={"https://dev.to/akashvarma9"}>
         <FaDev />
       </Button>
