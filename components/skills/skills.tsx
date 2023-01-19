@@ -47,11 +47,12 @@ export const Skills = () => {
         <SkillIcon name="Redux" imgSrc={redux} />
         <SkillIcon name="Next JS" imgSrc={next} />
         <SkillIcon name="Angular" imgSrc={angular} />
-        <SkillIcon name="Html" imgSrc={html} />
+        <SkillIcon name="HTML" imgSrc={html} />
         <SkillIcon name="Sass" imgSrc={sass} />
         <SkillIcon name="Tailwind" imgSrc={tailwind} />
         <SkillIcon name="Typescript" imgSrc={typescript} />
         <SkillIcon name="Chartjs" imgSrc={chartjs} />
+        <SkillIcon name="Material UI" imgSrc={bootstrap} />
         <SkillIcon name="Bootstrap" imgSrc={bootstrap} />
       </div>
       <div className={skillIconStyles.skillSeparator}></div>
@@ -60,8 +61,11 @@ export const Skills = () => {
       <SectionSubTitle name="Backend" />
       <div className={skillIconStyles.skillsIconContainer}>
         <SkillIcon name="Nodejs" imgSrc={nodejs} />
-        <SkillIcon name="Graphql" imgSrc={graphql} />
-        <SkillIcon name="Spring boot" imgSrc={springboot} />
+        <SkillIcon name="Java" imgSrc={nodejs} />
+        <SkillIcon name="Spring Boot" imgSrc={nodejs} />
+        <SkillIcon name="GraphQl" imgSrc={graphql} />
+        <SkillIcon name="Microservices" imgSrc={springboot} />
+        <SkillIcon name="Kafka" imgSrc={springboot} />
         <SkillIcon name="Express" imgSrc={express} />
         <SkillIcon name="Redis" imgSrc={redis} />
         <SkillIcon name="Mongodb" imgSrc={mongodb} />
