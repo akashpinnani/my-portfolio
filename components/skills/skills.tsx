@@ -45,13 +45,13 @@ export const Skills = () => {
       <div className={skillIconStyles.skillsIconContainer}>
         <SkillIcon name="React" imgSrc={react} />
         <SkillIcon name="Redux" imgSrc={redux} />
-        <SkillIcon name="Next JS" imgSrc={next} />
+        <SkillIcon name="Next.js" imgSrc={next} />
         <SkillIcon name="Angular" imgSrc={angular} />
         <SkillIcon name="HTML" imgSrc={html} />
         <SkillIcon name="Sass" imgSrc={sass} />
-        <SkillIcon name="Tailwind" imgSrc={tailwind} />
+        <SkillIcon name="Tailwind CSS" imgSrc={tailwind} />
         <SkillIcon name="Typescript" imgSrc={typescript} />
-        <SkillIcon name="Chartjs" imgSrc={chartjs} />
+        <SkillIcon name="Chart.js" imgSrc={chartjs} />
         <SkillIcon name="Material UI" imgSrc={bootstrap} />
         <SkillIcon name="Bootstrap" imgSrc={bootstrap} />
       </div>
@@ -60,17 +60,19 @@ export const Skills = () => {
       {/* Backend skills */}
       <SectionSubTitle name="Backend" />
       <div className={skillIconStyles.skillsIconContainer}>
-        <SkillIcon name="Nodejs" imgSrc={nodejs} />
+        <SkillIcon name="Node.js" imgSrc={nodejs} />
         <SkillIcon name="Java" imgSrc={nodejs} />
         <SkillIcon name="Spring Boot" imgSrc={nodejs} />
-        <SkillIcon name="GraphQl" imgSrc={graphql} />
+        <SkillIcon name="JPA" imgSrc={nodejs} />
+        <SkillIcon name="Hibernate" imgSrc={nodejs} />
+        <SkillIcon name="GraphQL" imgSrc={graphql} />
         <SkillIcon name="Microservices" imgSrc={springboot} />
         <SkillIcon name="Kafka" imgSrc={springboot} />
         <SkillIcon name="Express" imgSrc={express} />
         <SkillIcon name="Redis" imgSrc={redis} />
         <SkillIcon name="Mongodb" imgSrc={mongodb} />
         <SkillIcon name="Mysql" imgSrc={mysql} />
-        <SkillIcon name="Nest" imgSrc={nest} />
+        <SkillIcon name="Nest.js" imgSrc={nest} />
       </div>
 
       <div className={skillIconStyles.skillSeparator}></div>
@@ -83,7 +85,7 @@ export const Skills = () => {
         <SkillIcon name="Figma" imgSrc={figma} />
         <SkillIcon name="Circleci" imgSrc={circleci} />
         <SkillIcon name="Firebase" imgSrc={firebase} />
-        <SkillIcon name="Aws" imgSrc={aws} />
+        <SkillIcon name="AWS" imgSrc={aws} />
         <SkillIcon name="Docker" imgSrc={docker} />
         <SkillIcon name="Jest" imgSrc={jest} />
       </div>
