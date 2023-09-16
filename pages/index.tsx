@@ -23,9 +23,9 @@ export default function Home() {
           <div className={styles.introductionContainer}>
             <Introduction />
           </div>
-          <div className={styles.profileImageWrapper}>
+          {/* <div className={styles.profileImageWrapper}>
             <ProfileImage />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={styles.container} id="skills">
